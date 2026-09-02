@@ -112,8 +112,12 @@
 
             #region question11
 
-            string? reviewer=null;
-            Console.WriteLine(reviewer==null);
+            //string? reviewer=null;
+            //Console.WriteLine(reviewer==null);
+            #endregion
+
+            #region question12
+            //can not answer
             #endregion
         }
     }
