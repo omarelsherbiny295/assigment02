@@ -89,7 +89,7 @@
 
             #region question8
             //int pages = 464;
-          
+
             //string text = pages.ToString();
             //Console.WriteLine(text.GetType().Name);
 
@@ -97,13 +97,17 @@
             #endregion
 
             #region question9
-            int copies = 100;
+            //int copies = 100;
 
-            object obj = copies;
-            Console.WriteLine(copies);
+            //object obj = copies;
+            //Console.WriteLine(copies);
 
-            int copies2 = (int)obj;
-            Console.WriteLine(copies2);
+            //int copies2 = (int)obj;
+            //Console.WriteLine(copies2);
+            #endregion
+
+            #region question10
+            //can not answer 
             #endregion
         }
     }
