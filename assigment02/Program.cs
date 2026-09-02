@@ -88,12 +88,22 @@
             #endregion
 
             #region question8
-            int pages = 464;
+            //int pages = 464;
           
-            string text = pages.ToString();
-            Console.WriteLine(text.GetType().Name);
-               
-          
+            //string text = pages.ToString();
+            //Console.WriteLine(text.GetType().Name);
+
+
+            #endregion
+
+            #region question9
+            int copies = 100;
+
+            object obj = copies;
+            Console.WriteLine(copies);
+
+            int copies2 = (int)obj;
+            Console.WriteLine(copies2);
             #endregion
         }
     }
