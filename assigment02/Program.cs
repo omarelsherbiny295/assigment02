@@ -44,14 +44,23 @@
             #endregion
 
             #region question4
-            int pages = 300;
+            //int pages = 300;
 
-            double dpages = Convert.ToDouble(pages);
-            Console.WriteLine(dpages);
+            //double dpages = Convert.ToDouble(pages);
+            //Console.WriteLine(dpages);
 
 
             #endregion
 
+            #region question5
+
+            double price = 49.99;
+            int intprice =(int)price;
+
+            Console.WriteLine(intprice);
+
+
+            #endregion
         }
     }
 
