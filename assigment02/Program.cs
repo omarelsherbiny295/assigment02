@@ -15,16 +15,34 @@
             #endregion
 
             #region question2
-            Book book = new Book();
-            book.title = "programming";
-            book.pages = 100;
+            //Book book = new Book();
+            //book.title = "programming";
+            //book.pages = 100;
 
-            Console.WriteLine(book.ToString());
-            Console.WriteLine(book.GetHashCode());
-            Console.WriteLine(book.Equals(book));
-            Console.WriteLine(book.GetType());
+            //Console.WriteLine(book.ToString());
+            //Console.WriteLine(book.GetHashCode());
+            //Console.WriteLine(book.Equals(book));
+            //Console.WriteLine(book.GetType());
 
+            #endregion
+
+            #region question3
+            try
+            {
+                int x = 10;
+                int y = 0;
+                Console.WriteLine(x / y);
+            }
+            catch
+            {
+                Console.WriteLine("can not divide by zero");
+            }
+            finally
+            {
+                Console.WriteLine("done");
+            }
             #endregion
         }
     }
+
 }
